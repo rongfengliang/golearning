@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"com.dalongapp/golearning/users"
+	"github.com/rongfengliang/golearning/users"
 )
 
 func main() {
