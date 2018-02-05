@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"os"
 
-	"github.com/rongfengliang/golearning/movie"
+	"github.com/rongfengliang/golearning/json"
 )
 
 type templateDate struct {
