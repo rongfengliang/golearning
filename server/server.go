@@ -8,10 +8,10 @@ import (
 	"github.com/rongfengliang/golearning/netdemo"
 )
 
-func index_handler(w http.ResponseWriter, r *http.Request) {
+func indexhandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "%s", netdemo.GetContentFromNet("http://www.cnblogs.com/rongfengliang"))
 }
 func HttpServer() {
-	http.HandleFunc("/", index_handler)
+	http.HandleFunc("/", indexhandler)
 	log.Fatal(http.ListenAndServe("0.0.0.0:8080", nil))
 }
