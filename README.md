@@ -6,7 +6,7 @@
 ```bash
 go get github.com/rongfengliang/golearning
 
-cd $GOPATH/github.com/rongfengliang/golearning
+cd $GOPATH/src/github.com/rongfengliang/golearning
 
 go build
 ```
