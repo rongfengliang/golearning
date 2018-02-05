@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 
-	"github.com/rongfengliang/golearning/json"
 	"github.com/rongfengliang/golearning/users"
 )
 
@@ -100,8 +99,16 @@ func main() {
 			fmt.Println(p.PersonVersion)
 	*/
 	/*
-		// json encode demo
+				// json encode demo
+				fmt.Print(movie.Json())
+
+				//decode json demo
+		        info := movie.Json()
+			fmt.Println(info)
+			var items []movie.Movie = movie.Entity(info)
+			for v, item := range items {
+				fmt.Println(v, item.Color)
+			}
 	*/
-	fmt.Print(movie.Json())
 
 }

@@ -11,6 +11,19 @@ type Movie struct {
 	Color bool `json:"color"`
 }
 
+func Entity(jsoninfo string) []Movie {
+	// var items []struct {
+	// 	Title string
+	// 	Year  int  `json:"released"`
+	// 	Color bool `json:"color"`
+	// }
+	var movies []Movie
+	if err := json.Unmarshal([]byte(jsoninfo), &movies); err != nil {
+		fmt.Println("some wrong")
+	}
+	fmt.Println(movies)
+	return movies
+}
 func Json() string {
 	movies := []Movie{
 		{
