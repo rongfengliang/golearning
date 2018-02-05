@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/rongfengliang/golearning/json"
 	"github.com/rongfengliang/golearning/users"
 )
 
@@ -80,7 +81,7 @@ func main() {
 	// appenddemo()
 	// structdemo()
 	/*
-		   nested struct demo
+		 //  nested struct demo
 			var info myapp.PersonApp = myapp.GetPersonInfo()
 			fmt.Println(info.PersonVersion)
 
@@ -98,5 +99,9 @@ func main() {
 			}
 			fmt.Println(p.PersonVersion)
 	*/
+	/*
+		// json encode demo
+	*/
+	fmt.Print(movie.Json())
 
 }
