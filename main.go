@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	"github.com/rongfengliang/golearning/template"
 	"github.com/rongfengliang/golearning/users"
 )
 
@@ -110,5 +111,5 @@ func main() {
 				fmt.Println(v, item.Color)
 			}
 	*/
-
+	template.MyTemplate()
 }
