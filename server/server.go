@@ -8,6 +8,10 @@ import (
 	"github.com/rongfengliang/golearning/netdemo"
 )
 
+func init() {
+	fmt.Print("server package is invoker")
+}
+
 type Server struct {
 }
 
