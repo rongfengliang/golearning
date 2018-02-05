@@ -8,7 +8,7 @@ import (
 type Movie struct {
 	Title string
 	Year  int  `json:"released"`
-	Color bool `json:"color,omitempty"`
+	Color bool `json:"color"`
 }
 
 func Json() string {
@@ -29,7 +29,8 @@ func Json() string {
 			Color: true,
 		},
 	}
-	b, err := json.Marshal(movies)
+	// b, err := json.Marshal(movies)
+	b, err := json.MarshalIndent(movies, "", "  ")
 	if err != nil {
 		fmt.Println("json encode is wrong")
 	}
