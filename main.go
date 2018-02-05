@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/rongfengliang/golearning/netdemo"
+	"github.com/rongfengliang/golearning/server"
 )
 
 func main() {
@@ -21,7 +19,5 @@ func main() {
 	// 	os.Exit(1)
 	// }
 	// fmt.Printf("%s", b)
-
-	content := netdemo.GetContentFromNet("http://www.cnblogs.com/rongfengliang")
-	fmt.Printf(content)
+	server.HttpServer()
 }
