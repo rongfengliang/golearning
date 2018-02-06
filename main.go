@@ -128,4 +128,26 @@ func main() {
 		fmt.Println(title, err)
 	*/
 
+	/*
+			 // method demo
+			p := method.Point{X: 44, Y: 21}
+		    result := p.Distance(method.Point{X: 3, Y: 6})
+			result2 := p.Distance2(method.Point{X: 3, Y: 6})
+			fmt.Println(result, "distance")
+			fmt.Println(result2, "distance2")
+	*/
+	/*
+		   //  method with point demo
+
+		p := method.Point{X: 44, Y: 21}
+		c := method.Cicle{Point: method.Point{X: 3, Y: 3}, Center: &method.Center{X: 5, Y: 7}}
+		result := c.Length(p)
+		result2 := c.Distance(p)
+		fmt.Println(result)
+		fmt.Println(result2)
+		fmt.Println("call from point")
+		c.ReturnX()
+		c.ReturnX2()
+	*/
+
 }
