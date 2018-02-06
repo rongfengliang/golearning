@@ -120,5 +120,11 @@ func main() {
 		}
 		fmt.Print(result)
 	*/
-
+	/*
+		  // panic demo
+		  panicapp.PanicDemo("")
+		  // recover demo
+		  _, err := panicapp.RecoverDemo("dalong")
+		fmt.Println(err)
+	*/
 }
