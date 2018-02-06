@@ -8,3 +8,7 @@ func Appdemo(name string) (result bool) {
 	}
 	return result
 }
+func MyDemo(name string) (result bool) {
+	result = false
+	return result
+}
