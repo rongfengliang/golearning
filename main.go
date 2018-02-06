@@ -121,10 +121,11 @@ func main() {
 		fmt.Print(result)
 	*/
 	/*
-		  // panic demo
-		  panicapp.PanicDemo("")
-		  // recover demo
-		  _, err := panicapp.RecoverDemo("dalong")
-		fmt.Println(err)
+			  // panic demo
+			  panicapp.PanicDemo("")
+			  // recover demo
+			title, err := panicapp.RecoverDemo("dalongss")
+		fmt.Println(title, err)
 	*/
+
 }

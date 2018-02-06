@@ -27,9 +27,10 @@ func RecoverDemo(name string) (title string, err error) {
 		panic(LoginError{})
 	} else if name == "dalong" {
 		panic(UserError{})
-	} else {
+	} else if name == "other" {
 		panic(OtherError{})
+	} else {
+		title = name
 	}
-	title = name
 	return title, err
 }
