@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/rongfengliang/golearning/template"
+	_ "github.com/rongfengliang/golearning/init"
 	"github.com/rongfengliang/golearning/users"
 )
 
@@ -97,5 +97,28 @@ func main() {
 				fmt.Println(v, item.Color)
 			}
 	*/
-	template.MyTemplate()
+	/*
+			// template demo
+		template.MyTemplate()
+
+	*/
+
+	/*
+			 // func demo
+
+
+			result, err := myfunc.ErrorLog("http://www.cnblogs.com/rongfengliang")
+			if err != nil {
+				fmt.Print("is wrong", err)
+			}
+			fmt.Print(result)
+
+			myfunc := function.MyFunc{}
+		result, err := myfunc.ErrorLog("")
+		if err != nil {
+			fmt.Print("is wrong", err)
+		}
+		fmt.Print(result)
+	*/
+
 }
