@@ -49,37 +49,23 @@ func structdemo2() {
 	fmt.Printf(user.AppName)
 }
 func main() {
-	// app := 3234
-	// fmt.Print(app)
-	// var user = users.User{Name: "dalofffffffffng", Age: 44}
-	// fmt.Printf("dalong" + "世界")
-	// fmt.Printf(user.Name)
-	// resp, err := http.Get("http://www.baidu.com")
-	// if err != nil {
-	// 	fmt.Printf("there is some wrong for get data")
-	// }
-	// b, err := ioutil.ReadAll(resp.Body)
-	// resp.Body.Close()
-	// if err != nil {
-	// 	fmt.Printf("wrong convert data")
-	// 	os.Exit(1)
-	// }
-	// fmt.Printf("%s", b)
-	// fmt.Print(appversion)
-	// server := server.Server{}
-	// server.HttpServer()
-	// a, b := appdemo()
-	// fmt.Print(a, b)
-	// p := new(server.Server)
-	// p.HttpServer()
-	// x := 123
-	// y := fmt.Sprintf("%d", x)
-	// fmt.Println(y, strconv.Itoa(x))
-	// count := strings.Count("dadadadada", "da")
-	// fmt.Print(count)
-	// arraydemo()
-	// appenddemo()
-	// structdemo()
+	/*
+		// http server demo
+		server := server.Server{}
+		server.HttpServer()
+		a, b := appdemo()
+		fmt.Print(a, b)
+		p := new(server.Server)
+		p.HttpServer()
+	*/
+
+	/*
+		 // basic data type demo
+		arraydemo()
+		appenddemo()
+		structdemo()
+	*/
+
 	/*
 		 //  nested struct demo
 			var info myapp.PersonApp = myapp.GetPersonInfo()
