@@ -36,13 +36,17 @@ func arraydemo() {
 	}
 
 }
+
+var index = 0
+
 func appenddemo() {
 
 	var runes []rune
-
+	index++
 	for _, r := range "dalong rong" {
 		runes = append(runes, r)
 	}
+	fmt.Println(index, "index page")
 	fmt.Printf("%q\n", runes)
 }
 func structdemo2() {
@@ -160,5 +164,7 @@ func main() {
 		myfunc.Logout(userlogin)
 
 	*/
+
+	go appenddemo()
 
 }
