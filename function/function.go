@@ -4,11 +4,21 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+
+	"github.com/rongfengliang/golearning/interfaceapp"
 )
 
 type MyFunc struct {
 }
 
+func (fpp MyFunc) CreateUserToken(login interfaceapp.UserLogin) string {
+	token, _ := login.Login()
+	return token
+}
+func (fpp MyFunc) Logout(login interfaceapp.UserLogin) string {
+	result := login.Logout()
+	return result
+}
 func (foo MyFunc) ErrorLog(url string) ([]string, error) {
 	if url == "" {
 		return nil, fmt.Errorf("%s", "http url is nil")

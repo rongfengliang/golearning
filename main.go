@@ -150,4 +150,14 @@ func main() {
 		c.ReturnX2()
 	*/
 
+	/*
+		 // interface use
+		myfunc := function.MyFunc{}
+		userlogin := interfaceimpl.FirstAppUserLogin{UserName: "dalong", UserPassword: "dalong", UserAppType: "applogin"}
+		result := myfunc.CreateUserToken(userlogin)
+		fmt.Println(result, "for login ")
+		myfunc.Logout(userlogin)
+
+	*/
+
 }
