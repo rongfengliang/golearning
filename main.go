@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	_ "github.com/rongfengliang/golearning/init"
+	_ "github.com/rongfengliang/golearning/packagedemo"
 	"github.com/rongfengliang/golearning/users"
 )
 
